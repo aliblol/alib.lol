@@ -7,10 +7,7 @@ import Background from './background';
 const HelloWorld = () => (
   <div>
     <Background/>
-    <Image 
-    sizes="(min-width: 75em) 33vw,
-            (min-width: 48em) 50vw,
-            100vw" 
+    <Image
             src={wordart} 
             alt="welcome to alib.lol a fun and cool website"
             priority
