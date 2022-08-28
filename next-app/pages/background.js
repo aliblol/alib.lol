@@ -12,6 +12,6 @@ const Background = () => (
         quality={100}
       />
     </div>
-)
+
 
 export default Background

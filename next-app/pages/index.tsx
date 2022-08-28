@@ -2,7 +2,7 @@ import Counter from '../Components/Counter';
 import wordart from '../Resources/wordart.png';
 import Image from 'next/image';
 import Background from './background';
-// this is the defualt page
+// this is the default page
 
 const HelloWorld = () => (
   <div>
