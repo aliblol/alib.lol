@@ -1,6 +1,6 @@
 import React from "react";
 
-const CoolText = (props) => {
+const CoolText = (props: any) => {
     // capitalize the text
     const text = props.text.toUpperCase();
     return (
@@ -18,7 +18,7 @@ const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 let interval = null;
 
 // the cool effect function
-const coolEffect = (event) => {
+const coolEffect = (event: any) => {
     // get the element
     const element = event.target as HTMLElement;
     // the iteration
@@ -32,7 +32,7 @@ const coolEffect = (event) => {
             // split the text into an array of letters
             .split("")
             // map over the array of letters
-            .map((letter, index) => {
+            .map((_, index) => {
                 // if the index is less than the iteration, return the letter
                 if (index < iteration) {
                     return element.dataset.value[index];

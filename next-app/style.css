@@ -1,6 +1,16 @@
 body,html {
-    margin: 0 !important
+    margin: 0 !important;
+    height: 100vh;
 }
+
+.container {
+    display: block;
+}
+
+.window {
+    margin: 10px;
+}
+
 #cool-text {
     font-family: 'Space Mono', monospace;
     font-size: clamp(3rem, 10vw, 8rem);
